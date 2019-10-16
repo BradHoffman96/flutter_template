@@ -2,6 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_template/core/constants/app_constants.dart';
+import 'package:flutter_template/ui/views/home_view.dart';
+import 'package:flutter_template/ui/views/login_view.dart';
+import 'package:flutter_template/ui/views/root_view.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {
